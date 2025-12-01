@@ -6,21 +6,28 @@ This project is a Tachometer designed to measure the rotational speed (RPM) of a
 Accurate RPM measurement using a Hall effect sensor
 Real-time speed monitoring
 RPM display on a 16x2 LCD screen
-👩‍💻 Team Members
+
+👩‍💻 Team Members:
+
+Radhiha Balasankaran Ramamoorthi
 Sahana Sukumaran
 Mugashree K
 Bernice Cynthia P
-Radhiha BR
-🔌 Hardware Components
+
+🔌 Hardware Components:
+
 Microcontroller: Arduino Nano
 Sensor: Hall effect sensor
 Display: 1602 LCD display
 Others: Jumper wires, Breadboard, USB cable
-🛠️ Software/Tools Used
+
+🛠️ Software/Tools Used:
+
 Programming Language: C++
 IDE: Arduino IDE
 Library: LiquidCrystal
-⚙️ How to Use
+
+⚙️ How to Use:
 1. Hardware Setup
 Fix the Arduino board, LCD, and Hall effect sensor module on a breadboard or base.
 Ensure all components are secure and won't shift during rotation.
