@@ -10,27 +10,36 @@ RPM display on a 16x2 LCD screen
 👩‍💻 Team Members:
 
 Radhiha Balasankaran Ramamoorthi
+
 Sahana Sukumaran
+
 Mugashree K
+
 Bernice Cynthia P
 
 🔌 Hardware Components:
 
 Microcontroller: Arduino Nano
+
 Sensor: Hall effect sensor
+
 Display: 1602 LCD display
+
 Others: Jumper wires, Breadboard, USB cable
 
 🛠️ Software/Tools Used:
 
 Programming Language: C++
+
 IDE: Arduino IDE
+
 Library: LiquidCrystal
 
 ⚙️ How to Use:
 1. Hardware Setup
 Fix the Arduino board, LCD, and Hall effect sensor module on a breadboard or base.
 Ensure all components are secure and won't shift during rotation.
+
 2. Wiring Connections
 LCD → Arduino
 LCD Pin	Arduino Pin	Description
@@ -50,18 +59,22 @@ Sensor Pin	Arduino Pin	Description
 VCC	5V	Power
 GND	GND	Ground
 AO	A0	Analog input pin
+
 3. Upload the Code
 Open the Arduino IDE
 Load the code from tachometer.ino
 Connect your Arduino Nano via USB
 Upload the code
+
 4. Power the Circuit
 Use USB or an external 5V power supply to power the board.
+
 5. Measure RPM
 Attach a small magnet securely to the rotating object (wheel, shaft, etc.).
 When it passes near the Hall effect sensor, a pulse is counted.
 RPM is updated every second on the LCD.
 You can also view readings via the Serial Monitor.
+
 ✅ Expected Results
 Raw Sensor Values: The Serial Monitor will print analog readings from the Hall effect sensor.
 
